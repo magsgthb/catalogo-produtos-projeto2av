@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos - Supermercado</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header class="topo">
+        <h1>🛒 Catálogo de Produtos - Supermercado</h1>
+    </header>
+
+    <main>
+
+        <!-- Área de ações -->
+        <section class="acoes">
+
+            <button id="btnCarregar" class="btn carregar">
+                Carregar Produtos
+            </button>
+
+            <input type="text" id="buscarInput" placeholder="Buscar por nome...">
+
+            <select id="filtroCategoria">
+                <option value="todas">Todas as categorias</option>
+            </select>
+
+            <select id="ordenarSelect">
+                <option value="nome">Nome (A-Z)</option>
+                <option value="precoMenor">Preço (Menor → Maior)</option>
+                <option value="precoMaior">Preço (Maior → Menor)</option>
+            </select>
+
+        </section>
+
+        <!-- Container dos produtos -->
+        <section id="produtosContainer" class="grid-produtos">
+            <!-- Produtos carregados via AJAX -->
+        </section>
+
+        <p id="mensagemErro" class="mensagem-erro"></p>
+
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <img id="modalImg" src="" alt="">
+            <h2 id="modalNome"></h2>
+            <p id="modalCategoria"></p>
+            <p id="modalDescricao"></p>
+            <p id="modalPreco"></p>
+            <p id="modalEstoque"></p>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="js/produtos.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

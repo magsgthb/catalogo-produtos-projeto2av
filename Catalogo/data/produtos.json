@@ -1,0 +1,112 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Arroz Branco Tipo 1 - 5kg",
+            "categoria": "Cereais",
+            "preco": 22.90,
+            "estoque": 45,
+            "descricao": "Arroz branco tipo 1, ideal para o dia a dia.",
+            "imagem": "assets/images/Arroz.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Feijão Carioca - 1kg",
+            "categoria": "Cereais",
+            "preco": 8.50,
+            "estoque": 63,
+            "descricao": "Feijão carioca selecionado e de alta qualidade.",
+            "imagem": "assets/images/feijaocarioca.png"
+        },
+        {
+            "id": 3,
+            "nome": "Macarrão Espaguete - 500g",
+            "categoria": "Massas",
+            "preco": 5.20,
+            "estoque": 80,
+            "descricao": "Massa tipo espaguete, cozimento rápido.",
+            "imagem": "assets/images/macarraoespaguete.png"
+        },
+        {
+            "id": 4,
+            "nome": "Óleo de Soja - 900ml",
+            "categoria": "Óleos",
+            "preco": 6.99,
+            "estoque": 52,
+            "descricao": "Óleo de soja puro, perfeito para frituras e receitas.",
+            "imagem": "assets/images/oleodesoja.png"
+        },
+        {
+            "id": 5,
+            "nome": "Açúcar Cristal - 1kg",
+            "categoria": "Açúcares",
+            "preco": 4.30,
+            "estoque": 70,
+            "descricao": "Açúcar cristal refinado de alta pureza.",
+            "imagem": "assets/images/acucarcristal.png"
+        },
+        {
+            "id": 6,
+            "nome": "Café Tradicional - 500g",
+            "categoria": "Bebidas",
+            "preco": 15.90,
+            "estoque": 38,
+            "descricao": "Café torrado e moído, sabor forte.",
+            "imagem": "assets/images/cafetradicional.png"
+        },
+        {
+            "id": 7,
+            "nome": "Leite Integral - 1L",
+            "categoria": "Laticínios",
+            "preco": 4.99,
+            "estoque": 120,
+            "descricao": "Leite integral UHT de alta qualidade.",
+            "imagem": "assets/images/leiteintegral1L.png"
+        },
+        {
+            "id": 8,
+            "nome": "Manteiga com Sal - 200g",
+            "categoria": "Laticínios",
+            "preco": 12.50,
+            "estoque": 25,
+            "descricao": "Manteiga cremosa com sal.",
+            "imagem": "assets/images/manteigacomsal200g.png"
+        },
+        {
+            "id": 9,
+            "nome": "Refrigerante Guaraná- 2L",
+            "categoria": "Bebidas",
+            "preco": 7.60,
+            "estoque": 95,
+            "descricao": "Refrigerante sabor Guaraná, garrafa de 2 litros.",
+            "imagem": "assets/images/guarana.png"
+        },
+        {
+            "id": 10,
+            "nome": "Sabonete Neutro - 90g",
+            "categoria": "Higiene",
+            "preco": 2.49,
+            "estoque": 150,
+            "descricao": "Sabonete neutro, adequado para todos os tipos de pele.",
+            "imagem": "assets/images/sabonete.png"
+        },
+        {
+            "id": 11,
+            "nome": "Detergente Neutro - 500ml",
+            "categoria": "Limpeza",
+            "preco": 3.29,
+            "estoque": 100,
+            "descricao": "Detergente neutro para lavar louças.",
+            "imagem": "assets/images/detergenteneutro500ml.png"
+        },
+        {
+            "id": 12,
+            "nome": "Papel Higiênico (12 unidades)",
+            "categoria": "Higiene",
+            "preco": 14.90,
+            "estoque": 60,
+            "descricao": "Pacote com 12 rolos de papel higiênico folha dupla.",
+            "imagem": "assets/images/papel.png"
+        }
+    ]
+}
